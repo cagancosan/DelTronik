@@ -1,4 +1,35 @@
 baseURL = 'http://hugo-quickstart-template.netlify.com'
-languageCode = 'en-us'
-title = 'DelTronik'
-theme = 'Lovelt'
+
+# Nombre del tema
+theme = "LoveIt"
+
+# Nombre del sitio
+
+title = "DelTronik"
+
+# Lenguaje preterminado
+
+languageCode = "es"
+languageName = "Español"
+
+# Autor
+
+[author]
+	name = "DanyRdia"
+	email = "danyrdia98@gmail.com"
+	link = "deltronik.net"
+
+# configuración de la barra de navegación <header bar>
+[menu]
+
+	[[menu.main]]
+	weight = 1
+	identifier = "posts"
+	# Puede agregar contenido antes del identificador como un icono o descripción, puede incluir formato html si lo desea
+	pre = ""
+	# Puede agregar contenido despues del identificador como un icono o descripción, puede utilizar formato html si lo desea
+	post = ""
+	name = "Publicaciones"
+	url = "/posts/"
+	# el titulo se mostrara cuando el ususario acerque el mouse al identificador
+	title = "Actualizaciones del blog"
