@@ -11,9 +11,24 @@ title = "DelTronik"
 
 languageCode = "es"
 languageName = "Spanish"
+# Incluir chino, japones o koreano?
+hasCJKLanguage = false
+
+# Configuración del HomePage(Pagina Principal)
+	# cantidad de entradas mostradas en cada pagina
+	paginate = 10
+	# Codigo de google analytic
+	googleAnalytics = ""
+	# copyright
+	copyright = ""
+	# Utilizar Robots.txt para permitir lectura de los buscadores en la pagina
+	enableRobotsTXT = true
+	# Utilizar codigos extendidos (emojis)
+	enableEmoji = true
+	# Ignorar errores de construcción del sitio
+	#ignoreErrors = ["error-remote-getjson","error-missing-instagram-accesstoken"]
 
 # Autor
-
 [author]
 	name = "DanyRdia"
 	email = "danyrdia98@gmail.com"
@@ -23,13 +38,472 @@ languageName = "Spanish"
 [menu]
 
 	[[menu.main]]
-	weight = 1
-	identifier = "posts"
-	# Puede agregar contenido antes del identificador como un icono o descripción, puede incluir formato html si lo desea
+		weight = 3
+		identifier = "posts"
+		# Puede agregar contenido antes del identificador como un icono o descripción, puede incluir formato html si lo desea
+		pre = ""
+		# Puede agregar contenido despues del identificador como un icono o descripción, puede utilizar formato html si lo desea
+		post = ""
+		name = "Publicaciones"
+		url = "/posts/"
+		# (hover) el titulo se mostrara cuando el ususario acerque el mouse al identificador
+		title = "Actualizaciones del blog"
+	[[menu.main]]
+		weight = 2
+		identifier = "tags"
+		pre = ""
+		post = ""
+		name = "Etiquetas"
+		url = "/tags/"
+		title = "Contenido del Blog"
+	[[menu.main]]
+		weight = 1
+		identifier = "categories"
+		pre = ""
+		post = ""
+		name = "Carpetas"
+		url = "/categories/"
+		title = "Contenido por categoria"
+
+# Configuraciones globales del sitio
+[params]
+	# Tema preterminado del sitio (auto, light, dark)
+	defaultTheme = "auto"
+	# Url publica del repositorio, solo si 'enableGitInfo' es igual a 'true'
+	gitRepo = ""
+	# Yave o hash function usado para SRI
+	# opciones: ["sha256","sha384","sha512","md5"]
+	fingerpoint = ""
+	# formato de fecha
+	dateFormat = "2022-01-02"
+	# Titulo de la pagina, para OpenGraph y las Twitter Card
+	title = "DelTronik"
+	# Descripción de la pagina, para OpenGraph y las Twitter Card
+	description = "Cuando los electrones se mueven las cosas suceden"
+	# Imagen del sitio, para OpenGraph y las Twitter Card
+	images = "/logo.png"
+
+#Configuraciones globales de la cabecera del sitio, Header
+[params.header]
+	# Propiedades de la barra de direcciones (fixed,normal,auto)
+	# Escritorio/Desktop
+	desktopMode = "fixed"
+	# Andoid/iPhone
+	mobileMode = "auto"
+	
+# Configuración global de la cabecera del sitio, titulo y logo
+[params.header.title]
+	# url (dirección) del logo
+	logo = ""
+	# Titulo, Nombre de la pagina
+	name = "DelTronik"
+	# Puede agregar contenido antes o despues del nombre
+	# Puede incluir formato HTML
 	pre = ""
-	# Puede agregar contenido despues del identificador como un icono o descripción, puede utilizar formato html si lo desea
 	post = ""
-	name = "Publicaciones"
-	url = "/posts/"
-	# el titulo se mostrara cuando el ususario acerque el mouse al identificador
-	title = "Actualizaciones del blog"
+	# Puede permitir(true) o negar(false) una animación para el titulo
+	typeit = false
+
+# Configuración global del pie de pagina, footer
+[params.footer]
+	# visible? true o false
+	enable = true
+	# Custom content - puede agregar contenido extra
+	# HTML esta soportado
+	custom = "DelTronik Solutions"
+	# Mostrar redirección a HUGO
+	hugo = false
+	# Copyright
+	copyright = false
+	# Mostrar Autor
+	author = false
+	# Información de Creación del sitio
+	since = 2022
+	# ICP, información 'only in china'
+	# HTML esta soportado
+	icp = ""
+	# Licencia
+	license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a> |'
+
+# Configuración global de las publicaciones
+[params.section]
+	# Cantidad de publicaciones mostrados por cada pagina
+	paginate = 10
+	# Formato de fecha
+	dateFormat = "01-02-2022"
+	# Cantidad de publicaciones mostradas en RSS
+	rss = 10
+
+# Configuración global de listas, en categorias o etiquetas
+[params.list]
+	# Cantidad de publicaciones mostradas
+	paginate = 10
+	# Formato de Fecha 
+	dateFormat = "01-02-2022"
+	# RSS
+	rss = 10
+
+# Configuración de accesos directos y/o aplicaciones generadas para mobile
+[params.app]
+	# Titulo mostrado junto al icono al crear acceso directo
+	title = "DelTronik"
+	# Omitir busqueda de icono
+	noFavicon = false
+	# SVG custom, para usar en place of older style debe ser formato .png y .ico
+	svgFavicon = ""
+	# Color predefinido para el icono en android, tema
+	themeColor = "#ffffff"
+	# Color predefinido para el icono en Iphone, tema
+	iconColor = "#ffffff"
+	# Color predefinido para el icono en WindowsMobile, Windows v8-10
+	tileColor = "#da532c"
+
+# Configuración del buscador incluido en el sitio
+[params.search]
+	# permitir? true o false
+	enable = true
+	# Seleccionar buscador [lunr, algolia]
+	type = "lunr"
+	# Cantidad maxima de caracteres indexados
+	contentLength = 4000
+	# PlaceHolder -  frase mostrada en la barra de busqueda
+	placeholder = "Buscar en el blog"
+	# Cantidad de resultados maximas a mostrar
+	maxResultLength = 10
+	# snippet length of the result
+	snippetLength = 30
+	# Con que etiqueta resaltar la parte de los resultados
+	highlightTag = "em"
+	# Usar un url absoluto bajo una base url para indexar
+	absoluteURL = false
+	
+# Parametros para buscador angolia, en caso de usarse
+[params.search.angolia]
+	index = ""
+	appID = ""
+	searchKey = ""
+
+# Configuración global de la pagina principal
+[params.home]
+	# rss
+	rss = 10
+# Perfil de la pagina principal
+[params.home.profile]
+	# permitir? true o false
+	enable = true
+	# Gravatar Email preferido en pagina principal
+	gravatarEmail = ""
+	# AvatarUrl , mostrar icono o avatar en pagina principal
+	avatarURL = ""
+	# Titulo mostrado en la pagina principal
+	title = "DelTronik"
+	# Subtitulo mostrado en la pagina principal
+	subtitle = "Cuando los electrones se mueven las cosas suceden.."
+	# Permitir animación en subtitulo?
+	typeit = true
+	# Mostrar iconos y link a redes sociales?
+	social = true
+	# Descargo de Resposabilidad
+	# HTML soportado
+	disclaimer = ""
+# Configuración de las publicaciones mostradas en la pagina principal
+[params.home.posts]
+	# Permitir mostrar actualizaciones en pagina principal?
+	enable = true
+	# Cantidad de paginas mostradas
+	paginate = 6
+# Social Link, redes sociales del author
+[params.social]
+	# Solo el usuario
+	GitHub = "deltronik"
+	Linkedin = ""
+	Twitter = "deltronik_"
+	Instagram = "deltronik_"
+	Facebook = ""
+	Telegram = ""
+	Medium = ""
+	Gitlab = "deltroniklab"
+	Youtubelegacy = ""
+	YoutubeCustom = ""
+	YoutubeChannel = ""
+	Tmblr = ""
+	Quora =""
+	Keybase =""
+	Pinteres = ""
+	Reddit = ""
+	Codepen = ""
+	FreeCodeCamp =""
+	Bitbucket =""
+	Stackhoverflow =""
+	Weibo =""
+	Odnoklassnoki =""
+	VK =""
+	Flickr =""
+	Xing =""
+	Snapchat =""
+	Soundcloud =""
+	Spotify=""
+	Bandcamp =""
+	Paypal ="danyrdia98@gmail.com"
+	Fivehundredpx=""
+	Mix=""
+	Goodreads=""
+	Lastfm=""
+	Fourquare=""
+	Hackernews=""
+	Kickstarter=""
+	Patreon=""
+	Steam=""
+	Twitch=""
+	Strava=""
+	Skype=""
+	Whatsapp=""
+	Zhihu=""
+	Douban=""
+	Angellist=""
+	Slidershare=""
+	Jsfiddle=""
+	Deviantart=""
+	Behance=""
+	Dribbble=""
+	Wordpress=""
+	Vine=""
+	Googlescholar=""
+	Researchgate=""
+	Mastodon=""
+	Thingiverse=""
+	Devto=""
+	Gitea=""
+	XMPP=""
+	Matrix=""
+	Bilibili=""
+	Discord=""
+	DiscordInvite=""
+	Liches=""
+	ORCID=""
+	Pleroma=""
+	Kaggle=""
+	MediaWiki=""
+	Plume=""
+	HackTheBox=""
+	RootMe=""
+	phone=""
+	Email="deltronik98@gmail.com"
+	RSS = true
+
+# Configuracion global de la estructura del sitio
+[params.page]
+	# Ocultar contenido en la pagina principal
+	hiddenFromHomePage = false
+	# Ocultar  buscador en la pagina principal
+	hiddenFromSearch = false
+	# Permitir emojis
+	twemoji = true
+	# Permitir lightgallery
+	lightgallety = true
+	# Permitir sintaxi ruby
+	ruby = true
+	# Permitir sintaxis extendida Fraction
+	fraction = true
+	# Permitir sintaxis extendida fontawesome
+	fontawesome = true
+	# Permitir enlase al texto RAW de markdown
+	linkToMarkdown = true
+	# Permitir texto completo en contenido rss
+	rssFullText = false
+# Configuración de tabla de contenido en las publicaciones
+[params.page.toc]
+	# Mostrar tabla de contenido
+	enable = true
+	# Mantener estatico la tabla de contenido en las paginas
+	keepStatic = true
+	# Colapsar automaticamente la tabla de contenido
+	auto = true
+# Configuración de Sintaxis Matemáticas - KaTeX
+[params.page.math]
+	# Permitir KaTeX
+	enable = true
+	# limitador preterminado para formula en linea es $...$ and \(...\)
+	inlineLeftDelimiter = "$"
+	inlineRightDelimiter = "$"
+	# limitador preterminado para formula en bloque es $$...$$  and \[...\]
+	# tambien llama a la función con: \begin{equation} ... \end{equation}
+	blockLeftDelimiter = "$$"
+	blockRightDelimiter = "$$"
+	# Menu katex , extension para copiar
+	copyTex = true
+	# Menu katex, extención mhchem
+	mhchem = true
+# Configuración de sintaxis para codigos
+[params.page.code]
+	# Mostrar boton para copiar en bloques de textos
+	copy = true
+	# Maximo tamaño de bloque, cantidad maxima de lineas a mostrar
+	maxShownLines = 50
+# Configuración mapa con Mapbox GL JS
+#[params.page.mapbos]
+#	accessToken = ""
+#	# Tema claro
+#	lightStyle = ""
+#	# Tema Oscuro
+#	darkStyle = ""
+#	# Permitir  NavigationControl
+#	navigation = true
+#	# Permitir GeolocateControl
+#	geolocate = true
+#	# Permitir Controles para escalar
+#	scale = true
+#	# Permitir pantalla completa
+#	fullscreen = true
+# Configuración para compartir contenido
+[params.page.share]
+	# Permitir compartir contenido del post
+	enable = true
+	# Plataformas permitidas
+	Twitter = true
+	Facebook = true
+	Linkedin = true
+	Whatsapp = true
+	Pinterest = true
+	Tumble = true
+	HackerNews = true
+	Reddit = true
+	VK = true
+	Buffer = false
+	Xing = false
+	Line = true
+	Instapaper = true
+	Pocket = false
+	Flipboard = false
+	Weibo = false
+	Blogger = false
+	Baidu = false
+	Odnoklassniki = false
+	Evernote = true
+	Skype = false
+	Trello = true
+	Mix = false
+# Configuraciones para caja de comentarios
+[params.page.comment]
+	# Permitir cajas de comentarios
+	enable = false
+	# Configuración para caja de comentario con disqus
+	[params.page.comment.disqus]
+		enable = false
+		# Nombre usado en publicaciones con disqus
+		shortname = ""
+	# Configuración para caja de comentario con Gitalk
+	[params.page.comment.gitalk]
+		enable = false
+		owner = ""
+		repo = ""
+		clientId = ""
+		clientSecret = ""
+	# Configuración para caja de comentario con Valine
+	[params.page.comment.valine]
+		enable = false
+		appId =""
+		appKey =""
+		placeholder =""
+		avatar ="mp"
+		meta =""
+		pageSize = 10
+		# automaticamente se adaptara al temai18n
+		lang =""
+		visitor = false
+		recordIP = false
+		highlight = false
+		enableQQ = false
+		serverURLs =""
+		# Permitir emoji. Alojados en themes/LoveIt/assets/lib/baseline/emoji
+		# Puede agregar sus propios emojis en assets/lib/valine/emoji
+		# o seleccionar alguno de abajo, por defecto esta google.yml
+		# google.yml, apple.yml, facebook.yml, twitter.yml
+		emoji = ""
+	# Configuración caja de comentarios con Facebook
+	[params.page.comment.facebook]
+		enable = false
+		width = "100%"
+		numPost = 10	
+		appID = ""
+		# el preterminado para el lenguaje es i18n
+		languageCode =""
+	# Configuración para caja de comentario con Telegram
+	[params.page.comment.telegram]
+		enable = false
+		siteID = ""
+		limit = 5
+		heigt = ""
+		color =""
+		colorful = true
+		dislikes = true
+		outlined = false
+	# Configuración para caja de comentario con Commento
+	[params.page.comment.commento]
+		enable = false
+	# Configuración para caja de comentarios con utterances
+	[params.page.comment.utterances]
+		enable = false
+	# repositorio / owner
+		repo = ""
+		issueTerm = "pathname"
+		label =""
+		lighTheme = "github-light"
+		darkTheme = "github-dark"
+	# Configuración para caja de comentarios con giscuss
+	[params.page.comment.giscuss]
+		enable = false
+		# Tambien puede seguir la documentación oficial
+		repo =""
+		repoId = ""
+		category = "Devops"
+		categoryId = ""
+		# el preterminado para el lenguaje es i18n
+		lang =""
+		mapping = "pathname"
+		reactionsEnabled = "1"
+		emitMetadata = "0"
+		inputPosition = "bottom"
+		lazyLoading = false
+		lightTheme = "light"
+		darkTheme = "dark"
+		
+# Configuración parametros para el SEO
+[params.page.seo]
+	# Url de imagen
+	images = []
+	# Información del publisher
+	[params.page.seo.pubisher]
+	name = "deltronik"
+	logoUrl = ""
+
+# Configuración de los parametros de animación
+[params.typeit]
+	# Velocidad de tipeo, en milisegundos
+	speed = 75
+	# Velocidad de parpadeo '|' cursor de escritura
+	cursorSpeed = 750
+	# Caracter usados como cursor de escritura
+	cursorChar = "."
+	# Duración de animación del cursor al finalizar frase
+	# Para sin limites ponga en '-1'
+	duration = -1
+
+# Configuración de codigos de verificación para buscadores
+[params.verification]
+google = ""
+bing = ""
+yandex = ""
+pinteres = ""
+baidu = ""
+
+# Configuración de Seo del sitio
+[params.seo]
+#url
+image = ""
+#thumbnail URL
+thumbnailUrl = ""
+
+# Configuración para Analiticas
+[params.analytics]
+enable = false
