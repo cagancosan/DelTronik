@@ -1,4 +1,4 @@
-baseURL = 'http://hugo-quickstart-template.netlify.com'
+baseURL = 'https://deltronik.net'
 
 # Nombre del tema
 theme = "LoveIt"
@@ -18,7 +18,7 @@ hasCJKLanguage = false
 	# cantidad de entradas mostradas en cada pagina
 	paginate = 10
 	# Codigo de google analytic
-	googleAnalytics = ""
+	googleAnalytics = "G-PLSCN056YX"
 	# copyright
 	copyright = ""
 	# Utilizar Robots.txt para permitir lectura de los buscadores en la pagina
@@ -36,6 +36,14 @@ hasCJKLanguage = false
 
 # configuración de la barra de navegación <header bar>
 [menu]
+	[[menu.main]]
+		weight = 4
+		identifier = "about"
+		pre = ""
+		post =""
+		name = "About"
+		url = "/about/"
+		title = "Sobre el blog"
 
 	[[menu.main]]
 		weight = 3
@@ -506,4 +514,4 @@ thumbnailUrl = ""
 
 # Configuración para Analiticas
 [params.analytics]
-enable = false
+enable = true
