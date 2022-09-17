@@ -89,7 +89,7 @@ hasCJKLanguage = false
 	# Descripción de la pagina, para OpenGraph y las Twitter Card
 	description = "Cuando los electrones se mueven las cosas suceden"
 	# Imagen del sitio, para OpenGraph y las Twitter Card
-	images = "/logo.png"
+	images = "error404.png"
 
 #Configuraciones globales de la cabecera del sitio, Header
 [params.header]
@@ -102,7 +102,8 @@ hasCJKLanguage = false
 # Configuración global de la cabecera del sitio, titulo y logo
 [params.header.title]
 	# url (dirección) del logo
-	logo = ""
+	# la dirección base es /assets/img
+	logo =""
 	# Titulo, Nombre de la pagina
 	name = "DelTronik"
 	# Puede agregar contenido antes o despues del nombre
@@ -202,7 +203,7 @@ hasCJKLanguage = false
 	# Gravatar Email preferido en pagina principal
 	gravatarEmail = ""
 	# AvatarUrl , mostrar icono o avatar en pagina principal
-	avatarURL = ""
+	avatarURL = "avatar.jpeg"
 	# Titulo mostrado en la pagina principal
 	title = "DelTronik"
 	# Subtitulo mostrado en la pagina principal
@@ -324,9 +325,9 @@ hasCJKLanguage = false
 	# Mostrar tabla de contenido
 	enable = true
 	# Mantener estatico la tabla de contenido en las paginas
-	keepStatic = true
+	keepStatic = false
 	# Colapsar automaticamente la tabla de contenido
-	auto = true
+	auto = false
 # Configuración de Sintaxis Matemáticas - KaTeX
 [params.page.math]
 	# Permitir KaTeX
@@ -394,12 +395,12 @@ hasCJKLanguage = false
 # Configuraciones para caja de comentarios
 [params.page.comment]
 	# Permitir cajas de comentarios
-	enable = false
+	enable = true
 	# Configuración para caja de comentario con disqus
 	[params.page.comment.disqus]
-		enable = false
+		enable = true
 		# Nombre usado en publicaciones con disqus
-		shortname = ""
+		shortname = "deltronik"
 	# Configuración para caja de comentario con Gitalk
 	[params.page.comment.gitalk]
 		enable = false
@@ -479,16 +480,16 @@ hasCJKLanguage = false
 # Configuración parametros para el SEO
 [params.page.seo]
 	# Url de imagen
-	images = []
+	images = ""
 	# Información del publisher
 	[params.page.seo.pubisher]
 	name = "deltronik"
-	logoUrl = ""
+	logoUrl = "avatar.jpeg"
 
 # Configuración de los parametros de animación
 [params.typeit]
 	# Velocidad de tipeo, en milisegundos
-	speed = 75
+	speed = 100
 	# Velocidad de parpadeo '|' cursor de escritura
 	cursorSpeed = 750
 	# Caracter usados como cursor de escritura
