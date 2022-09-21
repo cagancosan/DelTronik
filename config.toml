@@ -203,7 +203,7 @@ hasCJKLanguage = false
 	# Gravatar Email preferido en pagina principal
 	gravatarEmail = ""
 	# AvatarUrl , mostrar icono o avatar en pagina principal
-	avatarURL = "avatar.jpeg"
+	avatarURL = "https://github.com/deltronik/DelTronik/blob/main/themes/LoveIt/images/avatar.jpeg"
 	# Titulo mostrado en la pagina principal
 	title = "DelTronik"
 	# Subtitulo mostrado en la pagina principal
