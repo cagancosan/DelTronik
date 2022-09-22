@@ -83,7 +83,7 @@ hasCJKLanguage = false
 	# opciones: ["sha256","sha384","sha512","md5"]
 	fingerpoint = ""
 	# formato de fecha
-	dateFormat = "2022-01-02"
+	dateFormat = "2006-01-02"
 	# Titulo de la pagina, para OpenGraph y las Twitter Card
 	title = "DelTronik"
 	# Descripción de la pagina, para OpenGraph y las Twitter Card
@@ -196,6 +196,7 @@ hasCJKLanguage = false
 [params.home]
 	# rss
 	rss = 10
+	summaryLength = 100
 # Perfil de la pagina principal
 [params.home.profile]
 	# permitir? true o false
