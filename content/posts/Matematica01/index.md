@@ -71,6 +71,22 @@ La matemática desde el pasado fue considerada como un instrumento esencial de t
 
 <!--more-->
 
+## Una disciplina que brilla por su ausencia
+
+Odio las matemáticas. Si, se que no es la manera correcta de comenzar a hablar sobre matemáticas pero vamos, solo pensemos, un aparato en nuestro bolsillo es capas de realizar hasta el calculo mas complejo que lleguemos a utilizar en nuestro día a día, cuando vamos a hacer las compras la caja registradora lleva la cuenta y calcula el total a pagar, Software como Excel son capaces de calcular porcentaje, tiempo y un sin fin de parámetros, la velocidad de los autos es legible desde un aparato, la distancia es capas de ser medida con un simple sensor y jamás iremos a la tienda a pedir $\pi * r^2$ de una tortilla. Entonces ¿Por que habría de estudiar matemáticas?
+
+### Irrazonable
+
+Así la planteo [Paul Wigner](wikipedia.org/wiki/Eugene_Paul_Wigner), pero no se refería a las matemáticas en si, si no al uso que le damos a ellas. Muchas veces con cotidianeidad utilizamos las matemáticas, quizás mas veces de las que no damos cuenta, suponte esto, vas a pescar con una red y al cuando examinas lo que capturaste concluyes en que hay una medida mínima para los peces, indirectamente aplicaste conceptos matemáticos. Me atrevería a decir que la evolución humana y toda su tecnología esta basada en fundamentos matemáticos y es que solo debes observar el medio que te rodea, a este punto quiso llegar el ganador del novel con su articulo allá por el año 1960. En el mismo, Wigner observó que existen conceptos matemáticos en donde uno no cree que puede haberlos e incluso que existen conceptos matemáticos aplicables mas allá del contexto por el cual fueron creados (o descubiertos), lo irrazonable no es la matemáticas, lo irrazonable es la eficacia de la matemática en el medio que nos rodea.
+
+{{ <admonition type=info title="Nota" open=false >}}
+
+La irrazonable eficacia de la matemática en las ciencias naturales** es un articulo de Paul Wigner, publicado en 1960. Este mismo señala que la estructura matemática de una teoría física a menudo señala el camino para futuros avances en aquella teoría o incluso en predicciones empíricas
+
+{{ </admonition>}}
+
+ que defender una "ciencia" que apenas esta presente en el dia a dia de las personas? Bueno, eso cree la gran mayoria, Bien. Sabemos que no iras a comprar 2x+7 de papas a la tienda pero la realidad es que las matemáticas estan presente en el dia a dia de cada una de las personas del mundo la cuestion aqui es ¿Como? La otra realidad es que no lo sabemos, al menos no siempre, la misma naturaleza nos esplaya la poca comprensión del mundo matemáticos, ya lo dijo un fisico, llamado Eugene Wigner en 1959 "**irrazonable**" o esa es palabra que mas denotaba en una conferencia
+
 ## ¿Por donde empezar?
 
 Algunos dicen que es un lenguaje, otros la llaman ciencia formal y es que por todas las áreas que esta misma abarca es difícil darle una definición. Las matemáticas están presente en nuestra sociedad desde que a un mono se le dio la necesidad de saber cuanto alimento necesitaba para el invierno, o cuantos otros monos pertenecían a su tribu, esta a evolucionado de manera inimaginable.
