@@ -79,11 +79,11 @@ Odio las matemáticas. Si, se que no es la manera correcta de comenzar a hablar 
 
 Así la planteo [Paul Wigner](wikipedia.org/wiki/Eugene_Paul_Wigner), pero no se refería a las matemáticas en si, si no al uso que le damos a ellas. Muchas veces con cotidianeidad utilizamos las matemáticas, quizás mas veces de las que no damos cuenta, suponte esto, vas a pescar con una red y al cuando examinas lo que capturaste concluyes en que hay una medida mínima para los peces, indirectamente aplicaste conceptos matemáticos. Me atrevería a decir que la evolución humana y toda su tecnología esta basada en fundamentos matemáticos y es que solo debes observar el medio que te rodea, a este punto quiso llegar el ganador del novel con su articulo allá por el año 1960. En el mismo, Wigner observó que existen conceptos matemáticos en donde uno no cree que puede haberlos e incluso que existen conceptos matemáticos aplicables mas allá del contexto por el cual fueron creados (o descubiertos), lo irrazonable no es la matemáticas, lo irrazonable es la eficacia de la matemática en el medio que nos rodea.
 
-{{ <admonition type=info title="Nota" open=false >}}
+
 
 La irrazonable eficacia de la matemática en las ciencias naturales** es un articulo de Paul Wigner, publicado en 1960. Este mismo señala que la estructura matemática de una teoría física a menudo señala el camino para futuros avances en aquella teoría o incluso en predicciones empíricas
 
-{{ </admonition>}}
+
 
  que defender una "ciencia" que apenas esta presente en el dia a dia de las personas? Bueno, eso cree la gran mayoria, Bien. Sabemos que no iras a comprar 2x+7 de papas a la tienda pero la realidad es que las matemáticas estan presente en el dia a dia de cada una de las personas del mundo la cuestion aqui es ¿Como? La otra realidad es que no lo sabemos, al menos no siempre, la misma naturaleza nos esplaya la poca comprensión del mundo matemáticos, ya lo dijo un fisico, llamado Eugene Wigner en 1959 "**irrazonable**" o esa es palabra que mas denotaba en una conferencia
 
