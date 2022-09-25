@@ -9,8 +9,8 @@ title = "DelTronik"
 
 # Lenguaje preterminado
 
-languageCode = "es"
-languageName = "Spanish"
+languageCode = "en"
+languageName = "English"
 # Incluir chino, japones o koreano?
 hasCJKLanguage = false
 
@@ -18,7 +18,7 @@ hasCJKLanguage = false
 	# cantidad de entradas mostradas en cada pagina
 	paginate = 10
 	# Codigo de google analytic
-	googleAnalytics = "G-PLSCN056YX"
+	googleAnalytics = "G-0YRGQWZ23P"
 	# copyright
 	copyright = ""
 	# Utilizar Robots.txt para permitir lectura de los buscadores en la pagina
@@ -159,7 +159,7 @@ hasCJKLanguage = false
 	# Omitir busqueda de icono
 	noFavicon = false
 	# SVG custom, para usar en place of older style debe ser formato .png y .ico
-	svgFavicon = ""
+	svgFavicon = "favicon.ico"
 	# Color predefinido para el icono en android, tema
 	themeColor = "#ffffff"
 	# Color predefinido para el icono en Iphone, tema

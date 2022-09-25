@@ -1,47 +1,48 @@
+
 # Translations for English
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # === baseof ==
 [backToTop]
-other = "Back to Top"
+other = "Subir"
 
 [viewComments]
-other = "View Comments"
+other = "Ver Comentarios"
 # === baseof ==
 
 # === Post ===
 [posts]
-other = "Posts"
+other = "Publicaciones"
 # === Post ===
 
 # === Taxonomy ===
 [allSome]
-other = "All {{ .Some }}"
+other = "{{ .Some }}"
 
 [tag]
-other = "Tag"
+other = "Etiquetas"
 
 [tags]
-other = "Tags"
+other = "Etiquetas"
 
 [category]
-other = "Category"
+other = "Categoria"
 
 [categories]
-other = "Categories"
+other = "Categorias"
 # === Taxonomy ===
 
 # === Pagination ===
 [more]
-other = "More"
+other = "Mas"
 # === Pagination ===
 
 # === partials/header.html ===
 [selectLanguage]
-other = "Select Language"
+other = "Idioma"
 
 [switchTheme]
-other = "Switch Theme"
+other = "Theme"
 # === partials/header.html ===
 
 # === partials/footer.html ===
@@ -65,7 +66,7 @@ other = "en"
 
 # === partials/assets.html ===
 [search]
-other = "Search"
+other = "Buscar"
 
 [searchPlaceholder]
 other = "Search titles or contents..."
@@ -77,7 +78,7 @@ other = "Clear"
 other = "Cancel"
 
 [noResultsFound]
-other = "No results found"
+other = "No hay resultados"
 
 [lunrLanguageCode]
 other = "en"
@@ -97,38 +98,38 @@ other = "Learn more"
 
 # === partials/plugin/share.html ===
 [shareOn]
-other = "Share on"
+other = "Compartir en"
 # === partials/plugin/share.html ===
 
 # === posts/single.html ===
 [contents]
-other = "Contents"
+other = "Contenido"
 
 [publishedOnDate]
-other = "published on {{ .Date }}"
+other = "publicado en {{ .Date }}"
 
 [includedInCategories]
-other = "included in {{ .Categories }}"
+other = "agregado en {{ .Categories }}"
 
 [wordCount]
 one = "One word"
-other = "{{ .Count }} words"
+other = "{{ .Count }} palabras"
 
 [readingTime]
 one = "One minute"
-other = "{{ .Count }} minutes"
+other = "{{ .Count }} minutos"
 
 [views]
 other = "views"
 
 [author]
-other = "Author"
+other = "Autor"
 
 [updatedOnDate]
 other = "Updated on {{ .Date }}"
 
 [readMarkdown]
-other = "Read Markdown"
+other = "Leer en Markdown"
 
 [back]
 other = "Back"
@@ -137,7 +138,7 @@ other = "Back"
 other = "Home"
 
 [readMore]
-other = "Read More"
+other = "Leer todo"
 # === posts/single.html ===
 
 # === 404.html ===
