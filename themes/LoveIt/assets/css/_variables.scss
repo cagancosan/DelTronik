@@ -1,7 +1,11 @@
 // ==============================
 // Variables
 // ==============================
-
+//.color1 { #15bfe9 };
+//.color2 { #85ddf3 };
+//.color3 { #04242c };
+//.color4 { #475f66 };
+//.color5 { #0c728c };
 @font-face {
   font-family: Emoji;
   src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");
@@ -16,7 +20,7 @@ $global-font-weight: 400 !default;
 $global-line-height: 1.5rem !default;
 
 // Color of the background
-$global-background-color: #fff !default;
+$global-background-color: rgb(255, 254, 244) !default;
 $global-background-color-dark: #292a2d !default;
 
 // Color of the text
@@ -32,11 +36,12 @@ $global-link-color: #161209 !default;
 $global-link-color-dark: #a9a9b3 !default;
 
 // Color of the hover link
-$global-link-hover-color: #2d96bd !default;
-$global-link-hover-color-dark: #fff !default;
+$global-link-hover-color: #15bfe9 !default;
+$global-link-hover-color-dark: #0c728c
+ !default;
 
 // Color of the border
-$global-border-color: #f0f0f0 !default;
+$global-border-color: #0c728c !default;
 $global-border-color-dark: #363636 !default;
 // ========== Global ========== //
 
@@ -63,7 +68,7 @@ $header-title-font-family: $global-font-family !default;
 $header-title-font-size: 1.5rem !default;
 
 // Color of the header background
-$header-background-color: #f8f8f8 !default;
+$header-background-color: #0c728c !default;
 $header-background-color-dark: #252627 !default;
 
 // Color of the hover header item
@@ -81,11 +86,11 @@ $toc-title-font-size: 1.2rem !default;
 $toc-content-font-size: 1rem !default;
 
 // Color of the single link
-$single-link-color: #2d96bd !default;
-$single-link-color-dark: #55bde2 !default;
+$single-link-color: #0c728c !default;
+$single-link-color-dark: #0c728c !default;
 
 // Color of the hover single link
-$single-link-hover-color: #ef3982 !default;
+$single-link-hover-color: #85ddf3 !default;
 $single-link-hover-color-dark: #bdebfc !default;
 
 // Color of the table background

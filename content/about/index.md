@@ -11,7 +11,11 @@ math:
 
 # DelTronik
 
-Gracias a los autores de las tecnologias usadas en el blog:
+Este blog no es mas que una documentación de proyectos, tareas, trabajos y clases de todos mis intereses. El objetivo es simple: aprender, aplicar y enseñar.
+#### ¡Gracias!
+Gracias por estar aquí, espero de todo corazón que te haya sido de mucha ayuda el contenido echo con mucho esfuerzo luego de una larga guerra contra la procrastinación.
+
+Gracias a los autores de las tecnologías usadas en el blog:
 
 * [normalize.css](https://github.com/necolas/normalize.css)
 * [Font Awesome](https://fontawesome.com/)

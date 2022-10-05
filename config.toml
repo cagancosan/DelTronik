@@ -139,7 +139,7 @@ hasCJKLanguage = false
 	# Cantidad de publicaciones mostrados por cada pagina
 	paginate = 10
 	# Formato de fecha
-	dateFormat = "01-02-2022"
+	dateFormat = "2006-01-02"
 	# Cantidad de publicaciones mostradas en RSS
 	rss = 10
 
@@ -148,7 +148,7 @@ hasCJKLanguage = false
 	# Cantidad de publicaciones mostradas
 	paginate = 10
 	# Formato de Fecha 
-	dateFormat = "01-02-2022"
+	dateFormat = "2006-01-02"
 	# RSS
 	rss = 10
 
@@ -254,7 +254,7 @@ hasCJKLanguage = false
 	Soundcloud =""
 	Spotify=""
 	Bandcamp =""
-	Paypal ="danyrdia98@gmail.com"
+	Paypal ="DanyRdia98"
 	Fivehundredpx=""
 	Mix=""
 	Goodreads=""
