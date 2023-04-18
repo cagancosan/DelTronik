@@ -141,7 +141,7 @@ Como vimos en html existen un sin fin de etiquetas para introducir contenido o d
 
 {{< /mermaid >}}
 
-A esto se lo conoce como DOM (Document Object Model) y como vemos se organiza de forma jerárquica, lo cual a futuro con otras tecnologías nos sirve para manipular el comportamiento de nuestra pagina web 
+A esto se lo conoce como DOM (Document Object Model) y como vemos se organiza de forma jerárquica,comprender su estructura es importante ya que a futuro con otras tecnologías nos permite manipular el comportamiento de nuestra pagina web 
 
 ## Estructura de una pagina Web
 
@@ -157,4 +157,11 @@ Una de las características presentes en esta forma de representar un documento 
 
 - Elementos en Bloque: Son aquellos elementos cuyo espacio de ocupación es lineal, es decir, elementos como en este caso "cabecera" que si agregáramos un elemento ya sea anterior o posterior a este, el mismo se imprimiría/mostraría arriba o debajo
 
+| Elemento en bloque |
+|:------------------:|
+| Elemento en bloque |
+
 - Elementos en Linea: estos elementos son aquellas etiquetas cuya característica es que pueden ponerse alineadamente uno detrás de otro, como en este caso "contenido de pagina" y "barra lateral". Aunque siendo mucho mas especifico esta propiedad se encuentra presente con mas notoriedad en las etiquetas de textos  
+
+| Elemento en linea | Elemento en linea |
+| ----------------- | ----------------- |
