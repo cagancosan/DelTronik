@@ -9,8 +9,8 @@ title = "DelTronik"
 
 # Lenguaje preterminado
 
-languageCode = "en"
-languageName = "English"
+languageCode = "es"
+languageName = "Spanish"
 # Incluir chino, japones o koreano?
 hasCJKLanguage = false
 
@@ -20,7 +20,7 @@ hasCJKLanguage = false
 	# Codigo de google analytic
 	googleAnalytics = "G-0YRGQWZ23P"
 	# copyright
-	copyright = ""
+	copyright = "DelTronik© 2023-2024"
 	# Utilizar Robots.txt para permitir lectura de los buscadores en la pagina
 	enableRobotsTXT = true
 	# Utilizar codigos extendidos (emojis)
@@ -30,7 +30,7 @@ hasCJKLanguage = false
 
 # Autor
 [author]
-	name = "DanyRdia"
+	name = "DANH"
 	email = "danyrdia98@gmail.com"
 	link = "deltronik.net"
 

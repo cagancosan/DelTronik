@@ -41,6 +41,7 @@ html {
 
 body {
   background-color: $global-background-color;
+  background-image: linear-gradient(to top, #fff 80%, #6a797d 100%);
   color: $global-font-color;
   @include overflow-wrap(break-word);
   scrollbar-color: auto;
@@ -48,6 +49,7 @@ body {
   &[theme=dark] {
     color: $global-font-color-dark;
     background-color: $global-background-color-dark;
+    background-image: linear-gradient(to top, #041317 69%, #000000 100%);
   }
 }
 

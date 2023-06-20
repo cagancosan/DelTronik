@@ -8,24 +8,21 @@ demosite = "https://hugoloveit.com"
 
 tags = [
   "blog",
-  "clean",
-  "responsive",
-  "dark",
-  "theme"
+  "electronica",
+  "desarrollo web",
+  "programación",
+  "informatica"
 ]
 features = [
-  "cover-image",
-  "favicon",
-  "multilingual",
-  "pagination",
-  "social-menu",
-  "syntax-highlighting",
-  "SEO Optimized"
+  "desarrollo web",
 ]
 
 min_version = "0.62.0"
 
 [author]
+  name = "DANH"
+  homepage = "https://deltronik.net"
+[Base]
   name = "Dillon"
   homepage = "https://dillonzq.com/"
 

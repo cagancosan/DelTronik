@@ -1,11 +1,13 @@
 header {
   width: 100%;
   z-index: 150;
-  background-color: $header-background-color;
+  /*background-color: $header-background-color;*/
+  background-color: #9ca5a9;
   @include transition(box-shadow 0.3s ease);
 
   [theme=dark] & {
-    background-color: $header-background-color-dark;
+    /*background-color: $header-background-color-dark;*/
+    background-color: #030c10;
   }
 
   .logo {
@@ -23,7 +25,7 @@ header {
   }
 
   &:hover {
-    @include box-shadow(0 0 1.5rem 0 rgba(0, 0, 0, .1));
+    @include box-shadow(0 0 1.5rem 0 #071f27);
   }
 }
 
@@ -36,7 +38,7 @@ header {
 }
 
 .header-title {
-  font-family: var(--header-title-font-family);
+  font-family: 'Orbit';
   font-weight: bold;
   margin-right: .5rem;
   min-width: 10%;
@@ -74,12 +76,12 @@ header {
     @include border-radius(.5rem);
     border: none;
     outline: none;
-    background-color: $header-background-color;
+    background-color: #6a797d;
     vertical-align: baseline !important;
     @include transition(width 0.3s ease);
 
     [theme=dark] & {
-      background-color: $header-background-color-dark;
+      background-color: #06191f;
     }
   }
 
@@ -108,14 +110,14 @@ header {
   .open &, &.mobile {
     input {
       color: $global-font-color;
-      background-color: $search-background-color;
+      background-color: #cdd2d4;
       padding: 0 2rem 0 2rem;
     }
 
     [theme=dark] & {
       input {
         color: $global-font-color-dark;
-        background-color: $search-background-color-dark;
+        background-color: #010608;
       }
 
       @include placeholder($global-font-secondary-color-dark);
@@ -132,7 +134,7 @@ header {
     }
 
     .search-clear:hover {
-      color: #ff6b6b;
+      color: white;
     }
 
     .search-toggle:hover {
@@ -278,8 +280,8 @@ header {
 
     .menu {
       text-align: center;
-      background: $header-background-color;
-      border-top: 2px solid $global-border-color;
+      background: #9ca5a9;
+      border-top: 2px solid #6a797d;
       display: none;
       padding-top: .5rem;
       @include box-shadow(0 .125rem .25rem rgba(0, 0, 0, .1));
@@ -320,8 +322,8 @@ header {
       }
 
       [theme=dark] & {
-        background: $header-background-color-dark;
-        border-top-color: $global-border-color-dark;
+        background: #030c10;
+        border-top-color: #041317;
       }
     }
   }

@@ -13,8 +13,11 @@
         height: auto;
         margin: 0 auto;
         @include border-radius(100%);
-        @include box-shadow(0 0 0 .3618em rgba(0, 0, 0, .05));
+        @include box-shadow(0 0 0 .3618em #cdd2d4);
         @include transition(all 0.4s ease);
+        [theme=dark] & {
+          @include box-shadow(0 0 0 .3618em #082b22);
+        }
 
         &:hover {
           position: relative;
@@ -24,6 +27,7 @@
     }
 
     .home-title {
+      font-family: 'Orbit';
       font-size: 1.25rem;
       font-weight: bold;
       margin: 0;

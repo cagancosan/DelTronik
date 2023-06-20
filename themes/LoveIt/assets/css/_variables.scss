@@ -1,7 +1,8 @@
 // ==============================
 // Variables
 // ==============================
-//.color1 { #15bfe9 };
+// DelTronik
+//.color1  Black { #000000 } - White {#ffffff};
 //.color2 { #85ddf3 };
 //.color3 { #04242c };
 //.color4 { #475f66 };
@@ -14,7 +15,7 @@
 
 // ========== Global ========== //
 // Font and Line Height
-$global-font-family: system-ui, -apple-system, Segoe UI, Roboto, Emoji, Helvetica, Arial, sans-serif !default;
+$global-font-family: 'Lora',system-ui, -apple-system, Segoe UI, Roboto, Emoji, Helvetica, Arial, sans-serif !default;
 $global-font-size: 16px !default;
 $global-font-weight: 400 !default;
 $global-line-height: 1.5rem !default;
@@ -28,7 +29,7 @@ $global-font-color: #161209 !default;
 $global-font-color-dark: #a9a9b3 !default;
 
 // Color of the secondary text
-$global-font-secondary-color: #a9a9b3 !default;
+$global-font-secondary-color: #394c52 !default;
 $global-font-secondary-color-dark: #5d5d5f !default;
 
 // Color of the link
@@ -90,8 +91,8 @@ $single-link-color: #0c728c !default;
 $single-link-color-dark: #0c728c !default;
 
 // Color of the hover single link
-$single-link-hover-color: #85ddf3 !default;
-$single-link-hover-color-dark: #bdebfc !default;
+$single-link-hover-color: #071f27!default;
+$single-link-hover-color-dark: #071f27 !default;
 
 // Color of the table background
 $table-background-color: #fff !default;

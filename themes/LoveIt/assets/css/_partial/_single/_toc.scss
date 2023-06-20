@@ -126,6 +126,7 @@
     line-height: 2em;
     padding: 0 .75rem;
     background: darken($code-background-color, 6%);
+    background-color: #6a797d;
 
     [theme=dark] & {
       background: darken($code-background-color-dark, 6%);
@@ -133,7 +134,7 @@
   }
 
   .toc-content {
-    background-color: $code-background-color;
+    background-color: #6a797d;
 
     > nav > ul {
       margin: 0;
@@ -148,6 +149,7 @@
   &.open {
     .toc-title {
       background: darken($code-background-color, 3%);
+      background-color:#6a797d;
 
       [theme=dark] & {
         background: darken($code-background-color-dark, 3%);

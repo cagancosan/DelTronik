@@ -2,3 +2,28 @@
 // Custom style
 // 
 // ==============================
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.header-title a:hover{
+    color:white;
+    [theme=dark] & {
+        color:$global-link-hover-color-dark;
+    }
+}
+
+.menu-item:hover{
+    color:white;
+}
+
+.search-button:hover{
+    color:white;
+}
+
+/*Movil Menu Page content*/
+
+
+/*404 MANO*/
+.fa-fw:hover{
+    color: white;
+}
