@@ -1,16 +1,14 @@
-baseURL = 'https://deltronik.net'
+baseURL = 'https://blog.deltronik.net/'
 
 # Nombre del tema
 theme = "LoveIt"
 
 # Nombre del sitio
-
-title = "DelTronik"
+title = "DelTronik Blog"
 
 # Lenguaje preterminado
 
 languageCode = "es"
-languageName = "Spanish"
 # Incluir chino, japones o koreano?
 hasCJKLanguage = false
 
@@ -35,6 +33,8 @@ hasCJKLanguage = false
 	link = "deltronik.net"
 
 # configuración de la barra de navegación <header bar>
+[outputs]
+	home = ["HTML","RSS","JSON"]
 [menu]
 	[[menu.main]]
 		weight = 4
@@ -78,10 +78,10 @@ hasCJKLanguage = false
 	# Tema preterminado del sitio (auto, light, dark)
 	defaultTheme = "auto"
 	# Url publica del repositorio, solo si 'enableGitInfo' es igual a 'true'
-	gitRepo = ""
+	gitRepo = "github.com/deltronik/DelTronik"
 	# Yave o hash function usado para SRI
 	# opciones: ["sha256","sha384","sha512","md5"]
-	fingerpoint = ""
+	fingerpoint = "sha256"
 	# formato de fecha
 	dateFormat = "2006-01-02"
 	# Titulo de la pagina, para OpenGraph y las Twitter Card
@@ -90,6 +90,7 @@ hasCJKLanguage = false
 	description = "Cuando los electrones se mueven las cosas suceden"
 	# Imagen del sitio, para OpenGraph y las Twitter Card
 	images = "error404.png"
+
 
 #Configuraciones globales de la cabecera del sitio, Header
 [params.header]
@@ -161,9 +162,9 @@ hasCJKLanguage = false
 	# SVG custom, para usar en place of older style debe ser formato .png y .ico
 	svgFavicon = "favicon.ico"
 	# Color predefinido para el icono en android, tema
-	themeColor = "#ffffff"
+	themeColor = "#00121a"
 	# Color predefinido para el icono en Iphone, tema
-	iconColor = "#ffffff"
+	iconColor = "#00121a"
 	# Color predefinido para el icono en WindowsMobile, Windows v8-10
 	tileColor = "#da532c"
 
@@ -501,18 +502,18 @@ hasCJKLanguage = false
 
 # Configuración de codigos de verificación para buscadores
 [params.verification]
-google = ""
+google = "YF4DRrZ-cPn0K5PTizBDDjFEHMoraVElrJxSicY0Awk"
 bing = ""
 yandex = ""
-pinteres = ""
+pinteres = "4d2e6cba462f2ffbf16feacfad0c065e"
 baidu = ""
 
 # Configuración de Seo del sitio
 [params.seo]
 #url
-image = ""
+image = "https://www.deltronik.net/imagenes/profile.png"
 #thumbnail URL
-thumbnailUrl = ""
+thumbnailUrl = "https://www.gravatar.com/avatar/ed51bab11a5ab4213af6b32c14eebed0?s=240&d=mp"
 
 # Configuración para Analiticas
 [params.analytics]

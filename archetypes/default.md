@@ -4,11 +4,11 @@ subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-author: ""
-authorLink: ""
-description: ""
-license: ""
-images: []
+author: "DANH"
+authorLink: "deltronik.net"
+description: "El café con leche es como el café pero con leche"
+license: "CC BY-NC-SA 4.0"
+images: ["https://lh3.googleusercontent.com/a/AAcHTtc04QGgxBNIYDhq3OKQM95jy6tORuXEOGBDQB6eh30b38o=s288-c-no"]
 
 tags: []
 categories: []
