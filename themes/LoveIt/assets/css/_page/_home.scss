@@ -44,6 +44,7 @@
     .links {
       padding: .5rem;
       font-size: 1.5rem;
+      margin-bottom: 0.8em;
 
       a * {
         vertical-align: text-bottom;
@@ -81,10 +82,11 @@
   }
 
   .summary {
-    padding-top: 1rem;
     padding-bottom: .8rem;
-    color: $global-font-color;
-    border-bottom: 1px dashed $global-border-color;
+    color: #0049ab;
+    border-bottom: 1px dashed #0049ab;
+    margin-bottom: 0.8rem;
+    box-shadow: 0px/*→*/ 0px/*↓*/ 0px 1px #004aab0e;
 
     [theme=dark] & {
       color: $global-font-color-dark;
@@ -104,6 +106,8 @@
         height: 100%;
         left: 0;
         top: 0;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
 
         &.lazyloaded {
           @include object-fit(cover);

@@ -1,29 +1,6 @@
-Ale - Notas de tickets
-1- Corrección del titulo de la barra de direcciones [ok]
-2- Selección del algoritmo para la llave o hash usado en RSI [ok]
-3- correción del path para las imagenes /asset/img [ok]
-4- Implementación del gitrepo, se añadio la url [ok]
-5- Verificación deL dominio mediante DNS [ok]
-6- Verificación mediante token, se añadio el codigo de verificación brindado por google
-7- Reclamación de propiedad intelectual de la url en pinteres
-	7.5 - [Verificar luego de mandar actualizaciones a producción]
-	8 - Verificación en los motores de indexación Bing [pendiente]
-	9 - Verificación en motor de busqueda baidu [pendiente]
-			Nota: need phone number from chinesse
-10- Desplegar linbox from netlify [ok]
-	10.5- Insertar www.deltronik.com como dominio principal
-11- Desplegar blog [ok]
-	11.5- Configurar registros DNS para ocupar el subdominio
-		[https://www.blog.deltronik.net]
-12- Mejora del SEO
-	- img defect
-	- thumbnailUrl
-13- Corrección del sistema de busqueda
-	Nota: Modifica el diseño
-14- Conexión y verificación a BraveCreators
-----------------------------------------------
-Clara - Notas de ticets and debug
-1 - corrección del path para el favicon
-2- corrección del path del web.manifest
-3- creación de site.webmanifest
-
+[]- Modificar 'Hover' de la list icon del Home[ok]
+[]- Agregar borde a los articulos 'single sumary'[ok]
+[]- Corregir errores de indexación[ok]
+		- cambiar dns del blog[ok]
+		- cambiar dns del menu[ok]
+		- establecer prioridades[ok]

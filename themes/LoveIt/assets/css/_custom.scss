@@ -5,10 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+
 .header-title a:hover{
     color:white;
     [theme=dark] & {
-        color:$global-link-hover-color-dark;
+        color:#0049ab;
     }
 }
 
@@ -22,6 +23,9 @@
 
 /*Movil Menu Page content*/
 
+.summary{
+    border-radius: 15px;
+}
 
 /*404 MANO*/
 .fa-fw:hover{

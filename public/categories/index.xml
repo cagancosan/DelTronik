@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Categoria - DelTronik Blog</title>
-        <link>https://blog.deltronik.net/categories/</link>
+        <link>https://www.deltronik.net/categories/</link>
         <description>Categories - Categoria - DelTronik Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>danyrdia98@gmail.com (DANH)</managingEditor>
-            <webMaster>danyrdia98@gmail.com (DANH)</webMaster><copyright>DelTronik© 2023-2024</copyright><atom:link href="https://blog.deltronik.net/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>danyrdia98@gmail.com (DANH)</webMaster><copyright>DelTronik© 2023-2024</copyright><atom:link href="https://www.deltronik.net/categories/" rel="self" type="application/rss+xml" /><item>
     <title>Documentation</title>
-    <link>https://blog.deltronik.net/categories/documentation/</link>
+    <link>https://www.deltronik.net/categories/documentation/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>DANH</author>
-    <guid>https://blog.deltronik.net/categories/documentation/</guid>
+    <guid>https://www.deltronik.net/categories/documentation/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

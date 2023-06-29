@@ -1,4 +1,4 @@
-baseURL = 'https://blog.deltronik.net/'
+baseURL = "https://www.deltronik.net/"
 
 # Nombre del tema
 theme = "LoveIt"
@@ -9,6 +9,7 @@ title = "DelTronik Blog"
 # Lenguaje preterminado
 
 languageCode = "es"
+languageName = "Spanish"
 # Incluir chino, japones o koreano?
 hasCJKLanguage = false
 
@@ -26,11 +27,14 @@ hasCJKLanguage = false
 	# Ignorar errores de construcción del sitio
 	#ignoreErrors = ["error-remote-getjson","error-missing-instagram-accesstoken"]
 
+	# Whether to use git commit logo
+	enableGitInfo = true
+
 # Autor
 [author]
 	name = "DANH"
 	email = "danyrdia98@gmail.com"
-	link = "deltronik.net"
+	link = "www.deltronik.net"
 
 # configuración de la barra de navegación <header bar>
 [outputs]
@@ -41,7 +45,7 @@ hasCJKLanguage = false
 		identifier = "about"
 		pre = ""
 		post =""
-		name = "About"
+		name = "Sobre el Blog"
 		url = "/about/"
 		title = "Sobre el blog"
 
@@ -78,7 +82,7 @@ hasCJKLanguage = false
 	# Tema preterminado del sitio (auto, light, dark)
 	defaultTheme = "auto"
 	# Url publica del repositorio, solo si 'enableGitInfo' es igual a 'true'
-	gitRepo = "github.com/deltronik/DelTronik"
+	gitRepo = "https://github.com/deltronik/DelTronik"
 	# Yave o hash function usado para SRI
 	# opciones: ["sha256","sha384","sha512","md5"]
 	fingerpoint = "sha256"
@@ -87,9 +91,9 @@ hasCJKLanguage = false
 	# Titulo de la pagina, para OpenGraph y las Twitter Card
 	title = "DelTronik"
 	# Descripción de la pagina, para OpenGraph y las Twitter Card
-	description = "Cuando los electrones se mueven las cosas suceden"
+	description = "Cuando los electrones se mueven las cosas suceden | Blog de divulgación: Matemáticas, Programación, Desarrollo, Electrónica y electricidadd"
 	# Imagen del sitio, para OpenGraph y las Twitter Card
-	images = "error404.png"
+	images = "/Logo.jpeg"
 
 
 #Configuraciones globales de la cabecera del sitio, Header
@@ -128,7 +132,7 @@ hasCJKLanguage = false
 	# Mostrar Autor
 	author = false
 	# Información de Creación del sitio
-	since = 2022
+	since = 2023
 	# ICP, información 'only in china'
 	# HTML esta soportado
 	icp = ""
@@ -138,7 +142,7 @@ hasCJKLanguage = false
 # Configuración global de las publicaciones
 [params.section]
 	# Cantidad de publicaciones mostrados por cada pagina
-	paginate = 10
+	paginate = 15
 	# Formato de fecha
 	dateFormat = "2006-01-02"
 	# Cantidad de publicaciones mostradas en RSS
@@ -352,7 +356,7 @@ hasCJKLanguage = false
 	# Maximo tamaño de bloque, cantidad maxima de lineas a mostrar
 	maxShownLines = 50
 # Configuración mapa con Mapbox GL JS
-#[params.page.mapbos]
+#[params.page.mapbox]
 #	accessToken = ""
 #	# Tema claro
 #	lightStyle = ""
@@ -485,8 +489,8 @@ hasCJKLanguage = false
 	images = ""
 	# Información del publisher
 	[params.page.seo.pubisher]
-	name = "deltronik"
-	logoUrl = "avatar.jpeg"
+	name = "DelTronik"
+	logoUrl = "https://www.gravatar.com/avatar/ed51bab11a5ab4213af6b32c14eebed0?s=240&d=mp"
 
 # Configuración de los parametros de animación
 [params.typeit]
@@ -518,3 +522,90 @@ thumbnailUrl = "https://www.gravatar.com/avatar/ed51bab11a5ab4213af6b32c14eebed0
 # Configuración para Analiticas
 [params.analytics]
 enable = true
+
+# Configuración Cookies
+[params.cookieconsent]
+	enable = true
+	# Texto del banner de consentimiento para las cookies
+	[params.cookieconsent.content]
+		message = "¿Galletas?"
+		dismiss = "¿Dulces no hay?"
+		link = ""
+
+ # Usar polyfill para la compatibilidad con navegadores antiguos
+  [params.compatibility]
+    # whether to use Polyfill.io to be compatible with older browsers
+    # 是否使用 Polyfill.io 来兼容旧式浏览器
+    polyfill = true
+    # whether to use object-fit-images to be compatible with older browsers
+    # 是否使用 object-fit-images 来兼容旧式浏览器
+    objectFit = true
+
+# Configuracion del Markup relacionado con la configuracion
+# en Hugo
+[markup]
+	# Sintaxis Highlihting (https://gohugo.io/content-management/syntax-highlighting)
+	[markup.highlight]
+	codeFences = true
+	guessSyntax = true
+	lineNos = true
+	lineNumbersInTable = true
+ # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+	noClasses = false
+	# Goldmark is from Hugo 0.60 the default library used for Markdown
+  # Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
+	[markup.goldmark]
+		[markup.goldmark.extensions]
+			definitionList = true
+			footnose = true
+			linkfy = true
+			strikethrough = true
+			table = true
+			taskList = true
+			typographer = true
+		[markup.goldmark.rederer]
+			unsafe = true
+
+# Tabla de contenido
+	[markup.tableOfCOntents]
+		starLevel = 2
+		endLevel = 6
+
+# Site Map of the site
+[sitemap]
+	changefreq = "weekly"
+	filename = "sitemap.xml"
+	priority = 0.5
+
+
+# Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
+# Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = ":filename"
+
+# Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
+# 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
+[privacy]
+  # privacy of the Google Analytics (replaced by params.analytics.google)
+  # Google Analytics 相关隐私 (被 params.analytics.google 替代)
+  [privacy.googleAnalytics]
+    # ...
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# Options to make output .md files
+# 用于输出 Markdown 格式文档的设置
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+# Options to make output .md files
+# 用于输出 Markdown 格式文档的设置
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
