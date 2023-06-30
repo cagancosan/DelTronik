@@ -6,7 +6,7 @@ subtitle: "Comentarios bienvenidos: donde la ciencia se encuentra con el respeto
 date: 2023-06-30T19:57:33-03:00
 lastmod: 2023-06-30T19:57:33-03:00
 #¿Modo borrador?
-draft: true
+draft: false
 author: "DelTronik"
 authorLink: "menu.deltronik.net"
 description: "Cuando los electrones se mueven las cosas suceden"
