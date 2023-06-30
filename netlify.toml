@@ -1,7 +1,7 @@
 
 # example netlify.toml
 [build]
-  command = "hugo --buildDrafts"
+  command = "hugo"
   publish = "public"
 
 [build.environment]
