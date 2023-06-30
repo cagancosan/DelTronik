@@ -1,14 +1,17 @@
 ---
+#Nivel de importancia de la pagina
+weight:
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
+#¿Modo borrador?
 draft: true
 author: "DANH"
 authorLink: "deltronik.net"
 description: "El café con leche es como el café pero con leche"
 license: "CC BY-NC-SA 4.0"
-images: ["https://lh3.googleusercontent.com/a/AAcHTtc04QGgxBNIYDhq3OKQM95jy6tORuXEOGBDQB6eh30b38o=s288-c-no"]
+images: []
 
 tags: []
 categories: []
@@ -18,7 +21,7 @@ featuredImagePreview: ""
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
+twemoji: true
 lightgallery: true
 ruby: true
 fraction: true
@@ -33,7 +36,7 @@ code:
   copy: true
   maxShownLines: 50
 math:
-  enable: false
+  enable: true
   # ...
 mapbox:
   # ...
