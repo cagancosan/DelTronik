@@ -14,11 +14,11 @@ images: ["banner.png"]
 tags: ["programación","informática","fundamentos","desarrollo","sistemas","introducción","computación"]
 categories: ["Elementos de Programación"]
 
-featuredImage: ""
+featuredImage: "banner.png"
 featuredImagePreview: "banner.png"
 #RSS
-featured_image: "banner.png"
-image: "banner.png"
+#featured_image: "banner.png"
+#image: "banner.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
