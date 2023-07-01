@@ -1,6 +1,0 @@
-[]- Modificar 'Hover' de la list icon del Home[ok]
-[]- Agregar borde a los articulos 'single sumary'[ok]
-[]- Corregir errores de indexación[ok]
-		- cambiar dns del blog[ok]
-		- cambiar dns del menu[ok]
-		- establecer prioridades[ok]

@@ -2,8 +2,19 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://www.deltronik.net/</loc><lastmod>2023-06-30T20:52:35-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/comment-policy/</loc><lastmod>2023-06-30T20:52:35-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/posts/</loc><lastmod>2023-06-30T20:52:35-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/categories/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/tags/computaci%C3%B3n/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/tags/desarrollo/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/categories/elementos-de-programaci%C3%B3n/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/tags/fundamentos/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/fundamentos-de-programaci%C3%B3n/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/tags/inform%C3%A1tica/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/tags/introducci%C3%B3n/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/tags/programaci%C3%B3n/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/tags/sistemas/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.deltronik.net/tags/</loc><lastmod>2023-06-25T18:29:27-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://www.deltronik.net/about/</loc><lastmod>2022-10-04T21:12:35-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.deltronik.net/categories/</loc><lastmod>2022-09-17T00:12:31-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.deltronik.net/</loc><lastmod>2022-09-17T00:12:31-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.deltronik.net/categories/documentation/</loc><lastmod>2022-09-17T00:12:31-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.deltronik.net/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://www.deltronik.net/categories/documentation/</loc><lastmod>2022-09-17T00:12:31-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

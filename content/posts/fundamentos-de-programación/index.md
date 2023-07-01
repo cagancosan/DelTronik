@@ -16,6 +16,9 @@ categories: ["Elementos de Programación"]
 
 featuredImage: ""
 featuredImagePreview: "banner.png"
+#RSS
+featured_image: "banner.png"
+image: "banner.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

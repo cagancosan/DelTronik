@@ -41,6 +41,14 @@ hasCJKLanguage = false
 	home = ["HTML","RSS","JSON"]
 [menu]
 	[[menu.main]]
+		weight = 5
+		identifier = "contribuir"
+		pre = ""
+		post = ""
+		name  = "Contribuir"
+		url = "https://cafecito.app/deltronik"
+		title = "Contribuir"
+	[[menu.main]]
 		weight = 4
 		identifier = "about"
 		pre = ""
@@ -91,9 +99,9 @@ hasCJKLanguage = false
 	# Titulo de la pagina, para OpenGraph y las Twitter Card
 	title = "DelTronik"
 	# Descripción de la pagina, para OpenGraph y las Twitter Card
-	description = "Cuando los electrones se mueven las cosas suceden | Blog de divulgación: Matemáticas, Programación, Desarrollo, Electrónica y electricidadd"
+	description = "Cuando los electrones se mueven las cosas suceden | Bienvenido a DelTronik, un blog sobre electrónica, matemáticas, gestión de proyectos y programación. Encuentra artículos, tutoriales y proyectos que te ayudarán a aprender y crecer en estos campos. ¡Explora y aprende"
 	# Imagen del sitio, para OpenGraph y las Twitter Card
-	images = "/Logo.jpeg"
+	images = "/Cabezera.png"
 
 
 #Configuraciones globales de la cabecera del sitio, Header
@@ -107,7 +115,7 @@ hasCJKLanguage = false
 # Configuración global de la cabecera del sitio, titulo y logo
 [params.header.title]
 	# url (dirección) del logo
-	# la dirección base es /assets/img
+	# la dirección base es /assets/
 	logo =""
 	# Titulo, Nombre de la pagina
 	name = "DelTronik"
@@ -209,7 +217,7 @@ hasCJKLanguage = false
 	# Gravatar Email preferido en pagina principal
 	gravatarEmail = "deltronik98@gmail.com"
 	# AvatarUrl , mostrar icono o avatar en pagina principal
-	avatarURL = "avatar.jpeg"
+	avatarURL = "img/avatar.jpeg"
 	# Titulo mostrado en la pagina principal
 	title = "DelTronik"
 	# Subtitulo mostrado en la pagina principal
@@ -237,7 +245,7 @@ hasCJKLanguage = false
 	Facebook = ""
 	Telegram = ""
 	Medium = ""
-	Gitlab = "deltroniklab"
+	Gitlab = "deltronik_"
 	Youtubelegacy = ""
 	YoutubeCustom = ""
 	YoutubeChannel = ""
