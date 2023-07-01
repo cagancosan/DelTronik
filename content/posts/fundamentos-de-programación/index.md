@@ -2,8 +2,8 @@
 # weight: 100 (Peso o importancia de la pagina en el Blog)
 title: "Historia de la computación y la informática"
 subtitle: "Fundamentos de Programación"
-date: 2023-06-25T18:29:27-03:00
-lastmod: 2023-06-25T18:29:27-03:00
+date: 2023-07-01T18:29:27-03:00
+lastmod: 2023-07-01T18:29:27-03:00
 draft: false # False publicar, True modo Borrador
 author: "DANH"
 authorLink: "deltronik.net"
