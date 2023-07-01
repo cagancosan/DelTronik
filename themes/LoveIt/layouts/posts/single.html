@@ -64,9 +64,14 @@
         </div>
 
         {{- /* Featured image */ -}}
-            {{ if not .IsPage }}
-                <img src="{{ .Params.featuredImage }}" alt="Imagen destacada">
-            {{ end }}
+        {{- $image := $params.featuredimage -}}
+        {{- with .Resources.GetMatch "featured-image" -}}
+            {{- $image = .RelPermalink -}}
+        {{- end -}}
+        {{- with $image -}}
+            <div class="featured-image">
+                {{- dict "Src" . "Title" $.Description "Resources" $.Resources | partial "plugin/img.html" -}}
+            </div>
         {{- end -}}
 
         {{- /* Static TOC */ -}}
