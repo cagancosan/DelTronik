@@ -9,14 +9,14 @@ lastmod: 2023-06-30T19:57:33-03:00
 draft: false
 author: "DelTronik"
 authorLink: "menu.deltronik.net"
-description: "Cuando los electrones se mueven las cosas suceden"
+description: "Political de comentarios para el buen comentador que comenta"
 license: "CC BY-NC-SA 4.0"
 images: [comment.jpg]
 
 tags: []
 categories: []
 
-#featuredImage: "comment.jpg"
+featuredImage: "comment.jpg"
 featuredImagePreview: "comment.jpg"
 
 hiddenFromHomePage: true

@@ -7,7 +7,7 @@ lastmod: 2023-06-30T18:29:27-03:00
 draft: false # False publicar, True modo Borrador
 author: "DANH"
 authorLink: "deltronik.net"
-description: "El café con leche es como el café pero con leche"
+description: " Bien sabemos que la idea de un computador es algo que se fue construyendo poco a poco a lo largo de los años, no es de sorpresa que todo es gracias a toda la evolución en el campo de las matemáticas, la electronica, mecánica y muchas otras areas que se relacionaron de alguna manera con la creación de maquinas de cálculos aritméticos y a algunas personas excepcionales que contribuyeron de manera directa o indirectamente a la evolución de las mismas."
 license: "CC BY-NC-SA 4.0"
 images: ["banner.png"]
 
