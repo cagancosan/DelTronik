@@ -1,24 +1,23 @@
 ---
-# weight: 100 (Peso o importancia de la pagina en el Blog)
+#Nivel de importancia de la pagina
+#weight:
 title: "Historia de la computación y la informática"
 subtitle: "Fundamentos de Programación"
-date: 2023-06-30T18:29:27-03:00
-lastmod: 2023-06-30T18:29:27-03:00
-draft: false # False publicar, True modo Borrador
+date: 2023-07-03T20:14:44-03:00
+lastmod: 2023-07-03T20:14:44-03:00
+#¿Modo borrador?
+draft: true
 author: "DANH"
 authorLink: "deltronik.net"
-description: " Bien sabemos que la idea de un computador es algo que se fue construyendo poco a poco a lo largo de los años, no es de sorpresa que todo es gracias a toda la evolución en el campo de las matemáticas, la electronica, mecánica y muchas otras areas que se relacionaron de alguna manera con la creación de maquinas de cálculos aritméticos y a algunas personas excepcionales que contribuyeron de manera directa o indirectamente a la evolución de las mismas."
+description: "Breve resumen sobre algunos datos importantes de personas que contribuyeron a lo largo de la historia en la evolución de las computadoras"
 license: "CC BY-NC-SA 4.0"
-images: ["banner.png"]
+images: ["image/abacus.jpg","banner.png"]
 
-tags: ["programación","informática","fundamentos","desarrollo","sistemas","introducción","computación"]
+tags: ["Historia","introducción","sistemas","computación","programación","desarrollo","fundamentos"]
 categories: ["Elementos de Programación"]
 
 featuredImage: "banner.png"
 featuredImagePreview: "banner.png"
-#RSS
-#featured_image: "banner.png"
-#image: "banner.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -37,7 +36,7 @@ code:
   copy: true
   maxShownLines: 50
 math:
-  enable: false
+  enable: true
   # ...
 mapbox:
   # ...
@@ -59,7 +58,7 @@ library:
     # Or
     # someJS = "https://cdn.example.com/some.js"
 seo:
-  images: [banner.png]
+  images: ["banner.png"]
   # ...
 ---
 Bien sabemos que la idea de un computador es algo que se fue construyendo poco a poco a lo largo de los años, no es de sorpresa que todo es gracias a toda la evolución en el campo de las matemáticas, la electronica, mecánica y muchas otras areas que se relacionaron de alguna manera con la creación de maquinas de cálculos aritméticos y a algunas personas excepcionales que contribuyeron de manera directa o indirectamente a la evolución de las mismas.
@@ -76,7 +75,7 @@ En la antigüedad el ábaco fue popular en Oriente Próximo,Europa, China y Rusi
 
 ### Blaise Pascal (1642)
 
-La maquina de Pascal (Máquina aritmética o Pascalina) fue una calculadora mecánica, esta podia sumar y restar de forma directa mientras que las multiplicaciones y divisiones las realizaba a través de sumas o restas de forma repetitivas (repetidas)
+La maquina de Pascal (Máquina aritmética o Pascalina) fue una calculadora mecánica, esta podia sumar y restar de forma directa mientras que las multiplicaciones y divisiones las realizaba a través de sumas o restas de forma repetitivas (ejemplo: $ 4*3 = 4+(4+4) $)
 
 {{< image src="image/pascal.jpg" caption="Carlo Nardone from Roma, Italy" alt="Pascalina">}}
 
@@ -91,12 +90,12 @@ Pero esta no fue la única contribución de Leibniz al mundo de la computación 
 
 ### Charles Babbage (1812)
 
-  Babbage presento un proyecto llamado "ingenio diferencial",Su diseño se parecía mucho al de las computadoras modernas ,este consistía en crear una calculadora automática que pudiera tabular funciones matemáticas mediante el método de las diferencias finitas.
+  Babbage presento un proyecto llamado "ingenio diferencial", Su diseño se parecía mucho al de las computadoras modernas ,este consistía en crear una calculadora automática que pudiera tabular funciones matemáticas mediante el método de las diferencias finitas.
 
   {{<image src="image/babbage.jpg" caption="imagen por Victuallers | Wikimedia commons" alt="PLanos máquina analítica">}}
 
 #### Ada Lovelace
-Aunque ninguna de las maquinas de Babbage pudieron construirse en la época debido a problemas técnicos, económicos y personales. El segundo proyecto de Babbage contó con la ayuda Ada Lovelace, una matemática y escritora que tradujo y amplió un articulo sobre la "Maquina Analítica". Lovelace se escribió el primer algoritmo para la máquina analítica, demostrando su potencial más allá de los cálculos numéricos
+Aunque ninguna de las maquinas de Babbage pudieron construirse en la época debido a problemas técnicos, económicos y personales. El segundo proyecto de Babbage contó con la ayuda Ada Lovelace, una matemática y escritora que tradujo y amplió un articulo sobre la "Maquina Analítica". Lovelace escribió el primer algoritmo para la máquina analítica, demostrando su potencial más allá de los cálculos numéricos
 
 {{< admonition tip "Ada Lovelace" false >}}
 Augusta Ada King, condesa de Lovelace (Londres, 10 de diciembre de 1815-íd., 27 de noviembre de 1852), registrada al nacer como Augusta Ada Byron y conocida habitualmente como Ada Lovelace, fue una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica. Fue la primera en reconocer que la máquina tenía aplicaciones más allá del cálculo puro y en haber publicado lo que se reconoce hoy como el primer algoritmo destinado a ser procesado por una máquina, por lo que se la considera como **la primera programadora de ordenadores**.
