@@ -6,7 +6,7 @@ subtitle: "Fundamentos de Programación"
 date: 2023-07-03T20:14:44-03:00
 lastmod: 2023-07-03T20:14:44-03:00
 #¿Modo borrador?
-draft: true
+draft: false
 author: "DANH"
 authorLink: "deltronik.net"
 description: "Breve resumen sobre algunos datos importantes de personas que contribuyeron a lo largo de la historia en la evolución de las computadoras"
@@ -126,9 +126,10 @@ Neumann introdujo los conceptos decisivos para el calculo automático., Propuso 
 Dejando de lado los problemas como el cuello de botella de von Neumann, este diseño permitió el desarrollo de computadoras más complejas y avanzadas que pudieron ejecutar programas almacenados en memoria y realizar operaciones con mayor velocidad y flexibilidad.
 
 ### John Pesper Eckert y John W. Mauchly (1946)
+
 {{<image src="image/eniac.jpg" alt="ENIAC" caption="International Communications Agency | Wikimedia Commons">}}
 
-La Electrical Numerical Integracion Automatic Computer o simplemente ENIAC fue la primera máquina con circuitos electrónicos, Pesaba cerca de 30 toneladas, poseía cerca de 180000 válvulas de vació, consumía cerca de 15000 voltios de potencia y era capas de realizar 5000 sumas/segundo (1000 veces mas rapida que la MARKI)
+La Electrical Numerical Integración Automatic Computer o simplemente ENIAC fue la primera máquina con circuitos electrónicos, Pesaba cerca de 30 toneladas, poseía cerca de 180000 válvulas de vació, consumía cerca de 15000 voltios de potencia y era capas de realizar 5000 sumas/segundo (1000 veces mas rápida que la MARKI)
 
 ### EDVAC (1951)
 
