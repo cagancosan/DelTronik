@@ -533,11 +533,11 @@ enable = true
 
 # Configuración Cookies
 [params.cookieconsent]
-	enable = true
+	enable = false
 	# Texto del banner de consentimiento para las cookies
 	[params.cookieconsent.content]
-		message = "¿Galletas?"
-		dismiss = "¿Dulces no hay?"
+		message = ""
+		dismiss = ""
 		link = ""
 
  # Usar polyfill para la compatibilidad con navegadores antiguos
