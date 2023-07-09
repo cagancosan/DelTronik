@@ -13,7 +13,7 @@ description: "Breve resumen sobre algunos datos importantes de personas que cont
 license: "CC BY-NC-SA 4.0"
 images: ["image/abacus.jpg","banner.png"]
 
-tags: ["Historia","introducción","sistemas","computación","programación","desarrollo","fundamentos"]
+tags: ["Historia","introducción","sistemas","computación","programación","desarrollo","fundamentos","teoría"]
 categories: ["Elementos de Programación"]
 
 featuredImage: "banner.png"

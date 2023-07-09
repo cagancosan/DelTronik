@@ -1,7 +1,7 @@
 ---
 #Nivel de importancia de la pagina
 #weight:
-title: "Categorías en Gestión de Proyectos"
+title: "Funciones de un gestor de proyectos"
 subtitle: "Fundamentos de la gestión de proyectos"
 date: 2023-07-07T03:08:09-03:00
 lastmod: 2023-07-07T03:08:09-03:00
@@ -13,7 +13,7 @@ description: "Cumplir con los objetivos de cualquier proyecto depende mayormente
 license: "CC BY-NC-SA 4.0"
 images: ["banner.png"]
 
-tags: ["Proyecto","Organización","Trabajos","Project","Planificación","Gestión de programas","Categorías","Gestión de Proyectos"]
+tags: ["Proyecto","Organización","Trabajos","Project","Planificación","Gestión de programas","Categorías","Gestión de Proyectos","teoría"]
 categories: ["Fundamentos de la Gestión de Proyectos"]
 
 featuredImage: "banner.png"
@@ -103,7 +103,25 @@ Y tu, como gestor de proyectos debes comprender cual sera tu rol y responsabilid
 
   Las habilidades desarrolladas en experiencias previas justifican con creces tus capacidades para desarrollarte en cualquier ambiente de trabajo, solo necesitas enfocarte en las cosas a tener en cuenta por que las funciones de un gerente de proyectos son similares en cualquier area o sector, la forma en que un gerente de proyecto agrega valor a la empresa no es por ser capas de finalizar los proyectos con éxitos, o tal vez si, pero hay cuestiones que hacen un gerente de proyecto sobresalga del resto 
 
-### Valor de un gerente de proyectos
+### ¿Como agrega valor de un gerente de proyectos?
+
   - agregar valor a su equipo y organización por medio de la priorización efectiva de las tareas requeridas para completar el proyecto.
   - delegar tareas de manera tal que al asignar tareas a las personas que mejor puedan completar el trabajo.
   - mantener una comunicación efectiva, tanto con su equipo como con los principales interesados.
+
+### Actitudes y actividades que agregan valor
+
+  - **Centrarse en el cliente**: comprender y cumplir los estándares del cliente, entablar relaciones y asegurarse de que estén satisfecho.
+  - **Formar un equipo excelente**: identificar y atraer personas con las habilidades adecuadas, valorar y confiar en cada miembro del equipo.
+  - **Fomentar relaciones y la comunicación**: establecer relaciones solidas, comunicarse regularmente y atender las necesidades del equipo
+  - **Gestionar el proyecto**: comprender el impacto de cada tarea en el objetivo general del proyecto y comunicarlo al equipo.
+  - **Superar obstáculos**: fomentar la creatividad y colaboración, brindar apoyo al equipo y buscar soluciones alternativas.
+
+## Funciones y responsabilidades claves de un gestor de proyecto
+
+  En resumen, como gerente de proyecto serás responsable de hacer un seguimiento de los detalles diarios del proyecto, pero también tendrás oportunidad de tomar distancia, ver el panorama general y en base a ello tomar tus decisiones.
+
+  Asi que, como vez, independiente del puesto, sector o proyecto en el que te embarques tendrás las mismas o responsabilidades similares que podemos resumirlas de la siguiente manera:
+    1. Planificar y organizar
+    2. Gestionar tareas
+    3. Elaborar presupuestos y controlar gastos y otros factores

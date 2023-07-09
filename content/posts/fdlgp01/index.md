@@ -13,7 +13,7 @@ description: "Ser gerente de proyecto conlleva el desempeño de muchas actividad
 license: "CC BY-NC-SA 4.0"
 images: ["banner.png"]
 
-tags: ["Project","Fundamentos","Gestión","Planificación","Proyectos","Gestión de Proyectos","Gestión de programas","Definición"]
+tags: ["Project","Fundamentos","Gestión","Planificación","Proyectos","Gestión de Proyectos","Gestión de programas","Definición","teoría"]
 categories: ["Fundamentos de la Gestión de Proyectos"]
 
 featuredImage: "banner.png"
