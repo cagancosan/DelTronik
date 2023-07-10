@@ -6,7 +6,7 @@ subtitle: "Fundamentos de la gestión de proyectos"
 date: 2023-07-10T15:48:39-03:00
 lastmod: 2023-07-10T15:48:39-03:00
 #¿Modo borrador?
-draft: true
+draft: false
 author: "DANH"
 authorLink: "deltronik.net"
 description: "Como gerente de proyectos, trabajar con gente que tiene un abanico de antecedentes y experiencias laborales."
@@ -87,3 +87,7 @@ Trabajar con estas personas denominadas "profesionales en T" puede ser un poco c
 
   Has aprendido sobre la importancia de establecer relaciones con interesados y miembros del equipo, aprende qué hace que cada persona del equipo se sienta respaldados, dá y recibe opiniones, ten en cuenta los antecedentes, los identificadores personales y estilos de trabajo de cada miembro puede ayudar a mediar algunas diferencias que aparezcan entre los miembros del equipo.
   Como gerente de proyectos es tu labor asegurarte que cada miembro reconozca el valor de sus esfuerzos en cada paso del camino.
+
+  ## Organizar equipos
+
+  Recuerda que mientras mas organizado seas en lo que haces, mas organizado sera tu equipo en lo piense y haga.
