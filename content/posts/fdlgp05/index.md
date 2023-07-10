@@ -6,7 +6,7 @@ subtitle: "Fundamentos de la gestión de proyectos"
 date: 2023-07-10T17:05:32-03:00
 lastmod: 2023-07-10T17:05:32-03:00
 #¿Modo borrador?
-draft: true
+draft: false
 author: "DANH"
 authorLink: "deltronik.net"
 description: "Si bien hay muchas habilidades diferentes que un gerente de proyectos puede tener, hay cuatro habilidades específicas que creemos que pueden llevarte al éxito. Estas son facilitar la toma de decisiones, comunicación y escalamiento, flexibilidad, y sólidas habilidades organizativas"
