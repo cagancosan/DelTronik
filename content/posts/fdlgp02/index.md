@@ -122,6 +122,7 @@ Y tu, como gestor de proyectos debes comprender cual sera tu rol y responsabilid
   En resumen, como gerente de proyecto serás responsable de hacer un seguimiento de los detalles diarios del proyecto, pero también tendrás oportunidad de tomar distancia, ver el panorama general y en base a ello tomar tus decisiones.
 
   Asi que, como vez, independiente del puesto, sector o proyecto en el que te embarques tendrás las mismas o responsabilidades similares que podemos resumirlas de la siguiente manera:
-    1. Planificar y organizar
-    2. Gestionar tareas
-    3. Elaborar presupuestos y controlar gastos y otros factores
+
+  1. Planificar y organizar
+  2. Gestionar tareas
+  3. Elaborar presupuestos y controlar gastos y otros factores
