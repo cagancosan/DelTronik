@@ -6,7 +6,7 @@ subtitle: "Fundamentos de la gestión de proyectos"
 date: 2023-07-10T13:50:52-03:00
 lastmod: 2023-07-10T13:50:52-03:00
 #¿Modo borrador?
-draft: true
+draft: false
 author: "DANH"
 authorLink: "deltronik.net"
 description: ""
