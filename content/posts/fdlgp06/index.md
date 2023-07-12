@@ -6,7 +6,7 @@ subtitle: "Fundamentos de la gestión de proyectos"
 date: 2023-07-12T12:15:17-03:00
 lastmod: 2023-07-12T12:15:17-03:00
 #¿Modo borrador?
-draft: true
+draft: false
 author: "DANH"
 authorLink: "deltronik.net"
 description: "Exploramos en publicaciones anteriores el papel de un gerente de proyectos y las destrezas básicas necesarias para tener éxito en ese rol. También vimos tu papel individual dentro del equipo del proyecto, ahora, exploraremos las destrezas interpersonales fundamentales que te ayudarán a generar relaciones sólidas con los miembros de tu equipo e interesados"
