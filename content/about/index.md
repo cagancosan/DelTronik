@@ -57,6 +57,8 @@ También puedes acceder directamente desde QR:
 
 ![Donar en paypal](C%C3%B3digoQR.png)
 
+![Donar en cafecito](cafecito.png)
+
 Y si por alguna razón el contenido no fue de tu agrado pues compártelo con aquellos que no te agraden y te vuelvo a dejar los botones de donación, tal vez pueda contratar un redactor que sea de tu agrado si contribuyes. That is so funny! :(far fa-grin-tears):
 
 [![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_4.svg)](https://cafecito.app/deltronik)
@@ -68,3 +70,7 @@ También puedes acceder directamente desde QR:
 
 ![Donar en paypal](C%C3%B3digoQR.png)
 
+<div style="display: flex; flex-direction: row;">
+    <img src="cafecito.png" alt="Descripción de la imagen 1" style="width: 50%;">
+    <img src="C%C3%B3digoQR.png" alt="Descripción de la imagen 2" style="width: 50%;">
+</div>
