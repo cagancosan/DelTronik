@@ -9,23 +9,11 @@ math:
   enable: true
 ---
 
-## ¡Hola y bienvenidos a DelTronik!
+## ¡Hola y bienvenidos al Blog!
 
-A través de este blog, quiero compartir contigo todo lo que he aprendido a lo largo de mi vida.
+Aquí encontraras una recopilación de mis apuntes de universidad y otros cursos tomados, no tengo intenciones de extender los textos ni de "rellenar" las publicaciones así que los artículos publicados son resúmenes claves que he utilizado para estudiar para mis exámenes.
 
-Crecí rodeado de personas apasionadas con lo que hacían, personas cuyas manos siempre estuvieron dispuestos a ayudar y enseñar, lo cual despertó en mí una pasión por el aprendizaje, siempre hay algo nuevo que aprender. Me encanta explorar temas relacionados con la electrónica, las matemáticas, la gestión de proyectos y la programación. Encontrarás una variedad de artículos y propuestas en este blog, junto con sugerencias sobre qué deberías donar para asegurarte de que mi gato esté bien alimentado antes de que decida comerme a mí. Después de todo, en mi vida, mis prioridades son: 
-- 1. alimentar a mi gato 
-- 2. pagar la factura de luz
-- 3. pagar el internet 
-- 4. creo no hay cuarta...(la comida es opcional).
-
-Mi objetivo principal es transmitir el contenido de una manera comprensible para todos, sin importar su nivel de experiencia. Quiero que cada artículo o proyecto sea una oportunidad para enseñar y compartir conocimientos de manera accesible y divertida.
-
-Además, encontrarás proyectos en los que trataré de combinar todos estos conocimientos de manera progresiva y aplicada. Pero, antes de que te sumerjas en el contenido, te animo a buscar el botón de donación y considerar ayudarme a pagar el internet. Cada pequeña contribución cuenta y me ayudará a seguir compartiendo información valiosa contigo.
-
-Agradezco cualquier sugerencia o pregunta que puedas tener. También te animo a compartir el blog con personas a las que creas que les pueda interesar. ¡Gracias por tu visita y espero que vuelvas pronto (y aprietes el botón de donación)!
-
-¡Bienvenidos a DelTronik y que disfrutes de tu estancia aquí!
+Mi objetivo principal, después de alimentar a mi gato y pagar el internet, es compartir mis experiencias y conocimientos. Espero las publicaciones te sean de ayuda y disfrutes de la lectura
 
 ## Agradecimientos
 
@@ -54,4 +42,29 @@ Gracias a los autores de las tecnologías usadas en el blog:
 * [Gitalk](https://github.com/gitalk/gitalk)
 * [Valine](https://valine.js.org/)
 * [cookieconsent](https://github.com/osano/cookieconsent)
-* y por sobre todo a mi por luchar constantemente con la procrastinación...
+* Al calendario de google por ayudarme a combatir la procrastination
+
+## Apoya al blog
+
+Si el contenido aquí es de tu agrado puedes apoyar al blog mediante Paypal o Cafesito con los link que te dejo a continuación:
+
+[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_4.svg)](https://cafecito.app/deltronik)
+
+
+[![Donar con PayPal](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png)](https://www.paypal.com/donate/?hosted_button_id=W664EN3R57P62)
+
+También puedes acceder directamente desde QR:
+
+![Donar en paypal](C%C3%B3digoQR.png)
+
+Y si por alguna razón el contenido no fue de tu agrado pues compártelo con aquellos que no te agraden y te vuelvo a dejar los botones de donación, tal vez pueda contratar un redactor que sea de tu agrado si contribuyes. That is so funny! :(far fa-grin-tears):
+
+[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_4.svg)](https://cafecito.app/deltronik)
+
+
+[![Donar con PayPal](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png)](https://www.paypal.com/donate/?hosted_button_id=W664EN3R57P62)
+
+También puedes acceder directamente desde QR:
+
+![Donar en paypal](C%C3%B3digoQR.png)
+
