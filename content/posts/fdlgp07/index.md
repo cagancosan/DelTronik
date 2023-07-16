@@ -11,10 +11,10 @@ author: "DANH"
 authorLink: "deltronik.net"
 description: "No existen proyectos exactamente iguales, esto quiere decir que siempre habrá diversas formas de gestionar un proyecto. Cada proyecto presenta sus propias necesidades y factores que determinaran las acciones a tomar"
 license: "CC BY-NC-SA 4.0"
-images: []
+images: ["featured-image.png"]
 
 tags: ["Gestión de Proyectos", "Destrezas","Desarrollo","Teoría","Proyecto","Fundamentos","Introducción"]
-categories: ["FUndamentos de la Gestión de Proyectos"]
+categories: ["Fundamentos de la Gestión de Proyectos"]
 
 resources:
 - name: featured-image
@@ -61,7 +61,7 @@ library:
     # Or
     # someJS = "https://cdn.example.com/some.js"
 seo:
-  images: []
+  images: ["featured-image.png"]
   # ...
 ---
 No existen proyectos exactamente iguales, esto quiere decir que siempre habrá diversas formas de gestionar un proyecto. Cada proyecto presenta sus propias necesidades y factores que determinaran las acciones a tomar
