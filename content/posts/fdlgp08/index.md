@@ -93,15 +93,15 @@ Todas estas preguntas y más, dependiendo los requerimientos del proyecto serán
 
 Identifica el problema o la oportunidad que el proyecto busca abordar. Se deben realizar análisis y evaluaciones para determinar si el proyecto es viable y si vale la pena invertir tiempo y recursos en él.
 
-### Establecimiento de objetivos y alcance del proyecto
+### 2. Establecimiento de objetivos y alcance del proyecto
 
 Los objetivos del proyecto definen lo que se espera lograr, mientras que el alcance del proyecto define los limites y las fronteras del trabajo a realizar. Es importante establecer objetivos claros y realistas para guiar todo el proyecto.
 
-### Análisis de viabilidad
+### 3. Análisis de viabilidad
 
 Antes de avanzar con el proyecto, es necesario evaluar su viabilidad técnica, financiera y operativa. Esto implica analizar los recursos necesarios, los riesgos asociados, los costos estimados y los beneficios esperados.
 
-### Identificación de partes interesadas
+### 4. Identificación de partes interesadas
 
   Durante esta etapa, se identifican las partes interesadas o stakeholders del proyecto. Estas personas o grupo que se ven afectados por el proyecto o que tienen interés en su resultado. Es importante comprender sus necesidades, expectativas y preocupaciones
 
