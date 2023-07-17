@@ -1,8 +1,8 @@
 ---
 #Nivel de importancia de la pagina
 #weight:
-title: "Index"
-subtitle: ""
+title: "¿Que hacer al terminar el proyecto?"
+subtitle: "Fundamentos de la gestión de proyectos"
 date: 2023-07-17T00:07:24-03:00
 lastmod: 2023-07-17T00:07:24-03:00
 #¿Modo borrador?
